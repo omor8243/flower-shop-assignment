@@ -1,0 +1,67 @@
+/*common css*/
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.primary-btn {
+  background-color: #E55473;
+  color: #fff;
+  padding: 20px 40px;
+  border: none;
+  border-radius: 8px;
+}
+
+/*header part css start*/
+.header-section {
+  background: rgba(229, 84, 115, 0.10);
+}
+
+.header-part {
+  display: flex;
+}
+
+.header-con {
+  padding-left: 40px;
+  padding-top: 190px;
+  /* text-align: center; */
+}
+
+.header-title {
+  color: #272727;
+  font-size: 80px;
+  font-weight: 800;
+  width: 708px;
+  margin: 0;
+}
+
+.header-disc {
+  color: rgba(39, 39, 39, 0.60);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 634px;
+}
+
+.header-image img {
+  padding-top: 100px;
+  /* margin: 50px ; */
+  /* padding-top: 200px; */
+}
+
+/*header part css end*/
+
+.featured-title {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.featured-disc {
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 18px;
+  line-height: 30px;
+}
