@@ -1,7 +1,10 @@
 /*common css*/
-body {
+* {
   padding: 0;
   margin: 0;
+}
+
+body {
   font-family: 'Lato', sans-serif;
 }
 
@@ -16,21 +19,25 @@ body {
 /*header part css start*/
 .header-section {
   background: rgba(229, 84, 115, 0.10);
+  /* padding: 0 240px; */
+
 }
 
 .header-part {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header-con {
   padding-left: 40px;
   padding-top: 190px;
-  /* text-align: center; */
+  text-align: start;
 }
 
 .header-title {
   color: #272727;
-  font-size: 80px;
+  font-size: 70px;
   font-weight: 800;
   width: 708px;
   margin: 0;
@@ -42,21 +49,25 @@ body {
   font-weight: 400;
   line-height: 30px;
   width: 634px;
+  margin: 20px 0;
 }
 
 .header-image img {
-  padding-top: 100px;
-  /* margin: 50px ; */
-  /* padding-top: 200px; */
+  width: 635px;
+  height: 800px;
+  padding-top: 50px;
 }
 
 /*header part css end*/
+
+/*featured part css*/
 
 .featured-title {
   color: #272727;
   text-align: center;
   font-size: 40px;
   font-weight: 800;
+  margin: 80px 0 0 0;
 }
 
 .featured-disc {
@@ -64,4 +75,43 @@ body {
   text-align: center;
   font-size: 18px;
   line-height: 30px;
+  margin-bottom: 38px;
 }
+
+.featured-image {
+  display: flex;
+  gap: 20px;
+  padding: 0 100px 0 80px;
+  /* padding-left: 20px; */
+}
+
+.featured-image .featured-img-1,
+.featured-img-2,
+.featured-img-3 {
+  width: 464px;
+  height: 538px;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.featured-image .featured-img-1,
+.featured-img-2,
+.featured-img-3 img {
+  width: 310px;
+  height: 428px;
+  padding: 110px 78px 0 76px;
+}
+
+.featured-image .featured-img-title {
+  text-align: center;
+  font-size: 24px;
+  color: #272727;
+  margin: 32px 0 0 0;
+  text-decoration: underline;
+}
+
+#second-img-title {
+  margin-top: 90px;
+}
+
+/*hand bouquit part css*/
