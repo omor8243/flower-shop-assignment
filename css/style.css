@@ -23,14 +23,15 @@ body {
 /*header part css start*/
 .header-section {
   background: rgba(229, 84, 115, 0.10);
-  width: 1520px;
+  width: 100%;
   height: 850px;
 
 }
 
 .header-part {
   display: flex;
-  margin: 0px 90px 140px 170px;
+  /* margin: 0px 90px 140px 170px; */
+  padding-left: 160px;
   /* align-items: center;*/
   /* justify-content: space-between;  */
 }
@@ -87,7 +88,7 @@ body {
   display: flex;
   justify-content: space-around;
   gap: 10px;
-  padding: 0 0 0 100px;
+  padding: 0 100px 0 100px;
   /* padding: 0 200px; */
 }
 .featured-image h4{
@@ -239,7 +240,7 @@ body {
 }
 
 .insta-image {
-  padding: 0 240px 0 200px;
+  padding: 0 200px 0 100px;
   display: flex;
   gap: 24px;
 }
@@ -251,11 +252,11 @@ body {
 
 /*subscribe section css*/
 .subscribe-section {
-  margin: 128px 240px 0 200px;
+  margin: 128px 200px 128px 150px;
 }
 
 .subscribe-part {
-  width: 1240px;
+  width: 1040px;
   height: 450px;
   background-image: url('/Flower-Asset/Rectangle-9.png');
 }
@@ -278,7 +279,7 @@ body {
 }
 
 .subscribe-input-field input {
-  width: 600px;
+  width: 500px;
   font-size: 16px;
   color: rgba(39, 39, 39, 0.60);
   padding: 18px 0 18px 18px;
