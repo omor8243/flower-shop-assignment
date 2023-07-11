@@ -56,6 +56,7 @@ body {
   width: 635px;
   height: 800px;
   padding-top: 50px;
+  /* padding-right: 50px; */
 }
 
 /*header part css end*/
@@ -115,3 +116,32 @@ body {
 }
 
 /*hand bouquit part css*/
+.bouquit-section{
+  margin: 100px;
+}
+.bouquit-title{
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+}
+.bouquit-disc{
+  color: #272727;
+  text-align: center;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.bouquit-image{
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+.bouquit-image img{
+  height: 400px;
+  width: 350px;
+  background-color: lightgray;
+  border: 1px solid lightgreen;
+  border-radius: 10px;
+  text-align: center;
+}
+/*sign up section css*/
