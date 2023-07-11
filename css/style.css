@@ -16,6 +16,10 @@ body {
   border-radius: 8px;
 }
 
+.primary-color {
+  color: #E55473;
+}
+
 /*header part css start*/
 .header-section {
   background: rgba(229, 84, 115, 0.10);
@@ -116,27 +120,31 @@ body {
 }
 
 /*hand bouquit part css*/
-.bouquit-section{
+.bouquit-section {
   margin: 100px;
 }
-.bouquit-title{
+
+.bouquit-title {
   color: #272727;
   font-size: 40px;
   font-weight: 800;
   text-align: center;
 }
-.bouquit-disc{
+
+.bouquit-disc {
   color: #272727;
   text-align: center;
   line-height: 25px;
   margin-bottom: 20px;
 }
-.bouquit-image{
+
+.bouquit-image {
   display: flex;
   text-align: center;
   justify-content: space-around;
 }
-.bouquit-image img{
+
+.bouquit-image img {
   height: 400px;
   width: 350px;
   background-color: lightgray;
@@ -144,4 +152,39 @@ body {
   border-radius: 10px;
   text-align: center;
 }
+
 /*sign up section css*/
+.sign-up-section {
+  padding: 0 400px 0 200px;
+  border-radius: 8px;
+  background: rgba(229, 84, 115, 0.05);
+}
+
+.sign-up-part {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sign-up-con {
+  margin-right: 100px;
+}
+
+.sign-up-title {
+  width: 590px;
+  color: #272727;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.sign-up-disc {
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 24px 0;
+}
+
+/*instagram section css*/
