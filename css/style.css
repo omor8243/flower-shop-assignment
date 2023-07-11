@@ -224,7 +224,7 @@ body {
 .subscribe-part {
   width: 1240px;
   height: 450px;
-  background-image: url('/Flower-Asset/Rectangle\ 9.png');
+  background-image: url('/Flower-Asset/Rectangle-9.png');
 }
 
 .subscribe-title {
@@ -232,7 +232,7 @@ body {
   text-align: center;
   font-size: 40px;
   font-weight: 800;
- padding-top: 120px;
+  padding-top: 120px;
 }
 
 .subscribe-sub-title {
@@ -252,9 +252,42 @@ body {
   border: none;
   border-radius: 10px;
 }
-.subscribe-input{
+
+.subscribe-input {
   display: flex;
   text-align: center;
   gap: 20px;
   padding-left: 280px;
+}
+
+/*footer section css*/
+.footer-section {
+  background: #111010;
+  /* width: 100%; */
+}
+.footer-con{
+  text-align: center;
+  margin-top: 125px;
+}
+
+.footer-heading {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 800;
+  padding-top: 100px;
+}
+
+.footer-disc {
+  color: rgba(255, 255, 255, 0.90);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding: 24px 0 32px 0;
+}
+
+.copyright {
+  color: rgba(255, 255, 255, 0.40);
+  font-size: 16px;
+  font-weight: 400;
+  padding-bottom: 128px;
 }
